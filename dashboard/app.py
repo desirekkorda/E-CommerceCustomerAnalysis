@@ -14,7 +14,7 @@ st.markdown("Analyze customer behavior personas and predict future customer life
 def load_data():
     rfm_df = pd.read_csv("data/customer_rfm_segments.csv")
     ltv_df = pd.read_csv("data/customer_ltv_predictions.csv")
-    return rfm_df, ltv_df vvv
+    return rfm_df, ltv_df
 
 try:
     rfm_df, ltv_df = load_data()
