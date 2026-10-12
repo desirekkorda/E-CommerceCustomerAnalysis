@@ -25,10 +25,7 @@ wheels/
 
 # --- Data Files (Keep scripts, ignore raw/processed bulky data) ---
 data/online_retail.csv
-data/cleaned_online_retail.csv
-data/customer_rfm_segments.csv
-data/customer_ltv_predictions.csv
-*.csv
+
 *.xlsx
 *.parquet
 
