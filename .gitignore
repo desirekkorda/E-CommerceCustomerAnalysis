@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Data Files (Keep scripts, ignore raw/processed bulky data) ---
+data/online_retail.csv
+data/cleaned_online_retail.csv
+data/customer_rfm_segments.csv
+data/customer_ltv_predictions.csv
+*.csv
+*.xlsx
+*.parquet
+
+# --- IDEs & Operating Systems ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- Streamlit ---
+.streamlit/
+*.zip
